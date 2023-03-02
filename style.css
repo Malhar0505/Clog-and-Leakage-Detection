@@ -1,0 +1,54 @@
+body {
+    margin:0%;
+    padding: 0%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: aqua;
+}
+span {
+    color: red;
+}
+
+#container {
+    background : black
+}
+#output2 {
+    color: red;
+}
+#output3 {
+    color: red;
+}
+#output4 {
+    color: red;
+}
+
+#wrapper {
+    position: absolute;
+    top : 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding : 20px;
+    font-size: 15px;
+}
+
+button{
+    color: white;
+    padding: 20px;
+    border : 5px solid white;
+    background : rgb(0, 0, 0);
+    display: block;
+    margin-top: 15%;
+    margin-left: 40%;
+    cursor: pointer; 
+    font-size: 20px;
+}
